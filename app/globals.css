@@ -57,6 +57,33 @@
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
   }
+
+  .yellow {
+    --background: 54 100% 88%; /* Light yellow background */
+    --foreground: 54 100% 20%; /* Darker yellow for text */
+    --muted: 54 100% 76%; /* Muted yellow */
+    --muted-foreground: 54 100% 40%; /* Muted text on yellow */
+    --popover: 54 100% 90%; /* Popover background */
+    --popover-foreground: 54 100% 20%; /* Popover text color */
+    --card: 54 100% 90%; /* Card background */
+    --card-foreground: 54 100% 20%; /* Card text color */
+    --border: 54 100% 60%; /* Border color */
+    --input: 54 100% 70%; /* Input background */
+    --primary: 54 100% 50%; /* Primary yellow color */
+    --primary-foreground: 54 100% 15%; /* Text on primary */
+    --secondary: 54 100% 80%; /* Secondary yellow, lighter */
+    --secondary-foreground: 54 100% 30%; /* Text on secondary */
+    --accent: 54 100% 85%; /* Accent color, light yellow */
+    --accent-foreground: 54 100% 35%; /* Text on accent */
+    --destructive: 0 100% 50%; /* Destructive (red) for contrast */
+    --destructive-foreground: 0 100% 95%; /* Text on destructive */
+    --ring: 54 100% 60%; /* Ring color for focus states */
+    --chart-1: 45 90% 65%; /* Chart color variations */
+    --chart-2: 54 100% 50%;
+    --chart-3: 54 100% 35%;
+    --chart-4: 60 80% 40%;
+    --chart-5: 54 90% 50%;
+  }
 }
 
 @layer base {

@@ -10,7 +10,6 @@ import {
   File,
   FileText,
   HelpCircle,
-  Image,
   Laptop,
   LayoutDashboardIcon,
   Loader2,
@@ -28,9 +27,25 @@ import {
   User,
   User2Icon,
   UserX2Icon,
-  X
+  X,
+  Music,
+  Mic,
+  Image,
+  BookA,
+  FolderArchive,
+  FileBarChart2,
+  FileImage,
+  FileClock,
+  FileLineChart,
+  FileSignature,
+  BookText,
+  Trophy,
+  MessagesSquare,
+  FileAxis3d,
+  Mic2,
+  FileTerminal
 } from 'lucide-react';
-
+import { ChevronDown } from 'lucide-react';
 export type Icon = LucideIcon;
 
 export const Icons = {
@@ -60,6 +75,21 @@ export const Icons = {
   sun: SunMedium,
   moon: Moon,
   laptop: Laptop,
+  chevronDown: ChevronDown,
+  music: Music,
+  mic: Mic,
+  image: Image,
+  notebook: BookA,
+  folder: FolderArchive,
+  file1: FileBarChart2,
+  file2: FileImage,
+  schedule: FileClock,
+  index: FileLineChart,
+  curated: FileSignature,
+  communication: MessagesSquare,
+  tropy: Trophy,
+  pers: FileAxis3d,
+  confrensi: Mic2,
   gitHub: ({ ...props }: LucideProps) => (
     <svg
       aria-hidden="true"

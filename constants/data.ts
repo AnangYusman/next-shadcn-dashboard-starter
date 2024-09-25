@@ -118,28 +118,131 @@ export const navItems: NavItem[] = [
     label: 'Dashboard'
   },
   {
-    title: 'User',
+    title: 'Konten',
     href: '/dashboard/user',
     icon: 'user',
-    label: 'user'
+    label: 'Konten',
+    children: [
+      {
+        title: 'Audio Visual',
+        href: '/dashboard/audio',
+        label: 'AudioVisual',
+        icon: 'music',
+        children: [
+          {
+            title: 'Music',
+            href: '/dashboard/audio/music',
+            label: 'Music'
+          }
+        ]
+      },
+      {
+        title: 'Audio',
+        href: '/dashboard/audio',
+        label: 'Audio',
+        icon: 'mic'
+      },
+      {
+        title: 'Foto',
+        href: '/dashboard/audio',
+        label: 'Foto',
+        icon: 'image'
+      },
+      {
+        title: 'Teks',
+        href: '/dashboard/audio',
+        label: 'Teks',
+        icon: 'notebook'
+      },
+      {
+        title: 'SPIT',
+        href: '/dashboard/audio',
+        label: 'SPIT',
+        icon: 'folder'
+      }
+    ]
   },
   {
-    title: 'Employee',
+    title: 'Agenda Setting',
     href: '/dashboard/employee',
-    icon: 'employee',
-    label: 'employee'
+    icon: 'file1',
+    label: 'agendasetting'
   },
   {
-    title: 'Profile',
+    title: 'Perencanaan',
     href: '/dashboard/profile',
-    icon: 'profile',
-    label: 'profile'
+    icon: 'file2',
+    label: 'perencanaan',
+    children: [
+      {
+        title: 'Mediahub',
+        href: '/dashboard/audio',
+        label: 'file2',
+        icon: 'mic'
+      },
+      {
+        title: 'Medsos Mediahub',
+        href: '/dashboard/audio',
+        label: 'file2',
+        icon: 'image'
+      }
+    ]
   },
   {
-    title: 'Kanban',
+    title: 'Penugasan',
     href: '/dashboard/kanban',
     icon: 'kanban',
-    label: 'kanban'
+    label: 'penugasan'
+  },
+  {
+    title: 'Jadwal ',
+    href: '/dashboard/kanban',
+    icon: 'schedule',
+    label: 'penugasan',
+    children: [
+      {
+        title: 'Konfrensi Pers',
+        href: '/dashboard/audio',
+        label: 'file2',
+        icon: 'confrensi'
+      },
+      {
+        title: 'Event',
+        href: '/dashboard/audio',
+        label: 'pers',
+        icon: 'pers'
+      },
+      {
+        title: 'Pers Rilis',
+        href: '/dashboard/audio',
+        label: 'pers',
+        icon: 'pers'
+      }
+    ]
+  },
+  {
+    title: 'Indeks',
+    href: '/dashboard/kanban',
+    icon: 'index',
+    label: 'penugasan'
+  },
+  {
+    title: 'Kurasi Konten',
+    href: '/dashboard/kanban',
+    icon: 'curated',
+    label: 'penugasan'
+  },
+  {
+    title: 'Komunikasi',
+    href: '/dashboard/kanban',
+    icon: 'communication',
+    label: 'penugasan'
+  },
+  {
+    title: 'Lomba',
+    href: '/dashboard/kanban',
+    icon: 'tropy',
+    label: 'penugasan'
   },
   {
     title: 'Login',
